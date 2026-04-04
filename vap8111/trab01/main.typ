@@ -1,0 +1,41 @@
+#import "trab01/imports.typ": abnt
+
+#let nome-aluno = "Wellington Wagner Ferreira Sarmento"
+#let nome-disciplina = "VAP8111 - Desenvolvimento e Sustentabilidade no Brasil"
+#let tipo-trabalho = "Resumo"
+#let nome-avaliador = "Prof. Dr. Felipe Xavier"
+
+#show: abnt.with(
+  arquivo-bibliografia: "referencias.bib", // Define o arquivo para o sistema @obra
+  titulo: [#tipo-trabalho dos capítulos 1 e 2 da obra "Desenvolvimento Sustentável: o desafio do século XXI" de José Eli da Veiga],
+  autor: nome-aluno,
+  instituicao: "Universidade Federal do Ceará",
+  centro: "Centro de Ciências",
+  programa: "Programa de Pós-Grad. em Desenvolvimento e Meio Ambiente",
+  curso: "Curso de Doutorado",
+  disciplina: nome-disciplina,
+  local: "Fortaleza",
+  ano: "2026",
+  avaliador: nome-avaliador
+)
+
+= Identificação da Obra e do Autor
+
+a) *Obra:*  "Desenvolvimento Sustentável: o desafio do século XXI" @veiga2005desenvolvimento
+
+b) *Autor:* José Eli da Veiga
+
+c) *Capítulos Analisados:* "Como pode ser entendido o desenvolvimento" @veiga2005desenvolvimento[p. 17-82] e "Como pode ser medino o desenvolvimento" @veiga2005desenvolvimento[p. 83-108]
+
+
+= Resumo
+ 
+No primeiro capítulo de sua obra, o autor, José Eli da Veiga, propõe uma análise sobre a evolução histórica e teórica do conceito de desenvolvimento, destacando a transição de métricas restritas à economia para abordagens multidimensionais. Ele inicia sua argumentação apontando que o debate em torno desse tema foi marcado por duas vertentes interpretativas consideradas reducionistas. A primeira trata o desenvolvimento como sinônimo de crescimento econômico. Segundo Veiga, essa perspectiva facilita a mensuração do progresso ao ancorar-se em indicadores quantitativos, como o Produto Interno Bruto (PIB) _per capita_, mas falha ao ignorar as dimensões sociais e distributivas da riqueza. Em contrapartida, a segunda vertente recai em um ceticismo que classifica o desenvolvimento como uma ilusão ou manipulação ideológica. Para os teóricos dessa visão crítica, seria improvável que os países da periferia econômica alcançassem os padrões de vida do centro do sistema capitalista. A fim de superar essa dualidade, Veiga argumenta que diversos estudiosos buscaram formular um caminho alternativo, redefinindo o desenvolvimento sobre bases mais complexas. Nesse percurso, ele resgata as contribuições de Celso Furtado, que afirmava que o desenvolvimento não pode ser resumido à acumulação de capital ou à inovação técnica, argumentando, ainda, que recursos financeiros, por si só, não constituem uma condição autossuficiente para a evolução de uma nação. Assim, Veiga enfatiza que, para Furtado, o crescimento econômico apenas se transforma em desenvolvimento autêntico quando existe um projeto social subjacente. Esse projeto deve priorizar a melhoria das condições de vida da maior parte da população, rompendo com o padrão de modernização restrita às elites.
+
+O texto traz, ainda, a teoria do economista Amartya Sen, que propõe a premissa do desenvolvimento como liberdade. O autor relata que Sen estabelece o progresso como o processo contínuo de eliminação das restrições às escolhas e oportunidades dos indivíduos, a exemplo da pobreza, da tirania e da destituição social. Sob essa ótica, a expansão da liberdade assume um duplo papel: é o meio institucional para se alcançar o desenvolvimento e o seu fim ético. Para evidenciar que o bem-estar social não está atrelado exclusivamente à renda, o autor ilustra a teoria de Sen com exemplos empíricos. Ele menciona populações com baixa renda monetária, como os habitantes de Kerala, na Índia, que apresentam taxas de expectativa de vida e alfabetização superiores às de grupos demográficos mais ricos, como certas comunidades afro-americanas nos Estados Unidos.
+
+Dando sequência à caracterização do fenômeno, Veiga analisa a *Curva de Kuznets*, modelo que sugeria que a desigualdade aumentaria nas fases iniciais da industrialização para cair em um momento posterior. Contudo, o texto informa que dados empíricos demonstraram que a estrutura da distribuição de renda é rígida e persistente, independentemente do volume de crescimento econômico gerado. Diante dessa complexidade sociológica, o autor recorre à perspectiva de Jane Jacobs, que propõe uma analogia na qual o desenvolvimento econômico é compreendido como uma versão do desenvolvimento natural. Trata-se de um processo cumulativo onde diferenciações emergem de generalidades, gerando diversidade por meio de dinâmicas de co-desenvolvimento interdependentes. A partir desse arcabouço teórico, Veiga delineia as características que separam o desenvolvimento da ideia de crescimento. A obra indica que o crescimento refere-se a uma expansão de caráter quantitativo, enquanto o desenvolvimento exige uma transformação qualitativa das estruturas sociais. Nesse ponto, o texto retoma o pensamento de Sen para destacar a relevância do custeio público. O autor explica que existem duas vias para a promoção de melhorias sociais: os processos mediados pelo crescimento e os conduzidos pelo custeio público. A ênfase recai sobre o segundo caminho, o qual indica que um país não precisa aguardar o enriquecimento macroeconômico prévio para promover avanços em saúde e educação. Isso reforça que o verdadeiro desenvolvimento abrange a capacidade de os indivíduos terem uma vida longa, adquirirem conhecimento e participarem da esfera cívica.
+
+No segundo capítulo, Veiga analisa como essa evolução teórica exigiu a criação de novos instrumentos de medida, dividindo a trajetória dessas metodologias em diferentes gerações. A primeira geração é aquela em que o PIB _per capita_ figurava como indicador central. O autor critica essa métrica por ser estritamente econômica e alheia às dinâmicas sociais subjacentes. Para romper com essa limitação, surgiu a segunda geração de indicadores, protagonizada pelo Índice de Desenvolvimento Humano (IDH), lançado em 1990 com apoio conceitual de Amartya Sen, o qual passou a avaliar renda, escolaridade e longevidade. Apesar de reconhecer o impacto positivo dessa inovação metodológica, Veiga aponta uma deficiência matemática estrutural no IDH: sua natureza de média aritmética. A obra argumenta que essa média mascara desigualdades no interior dos territórios, permitindo que municípios com rendas altas, mas com realidades sociais precárias, obtenham índices finais superiores aos de localidades de menor renda que gerenciam adequadamente seus serviços públicos. Além disso, o autor alerta que a elaboração de rankings lineares a partir do IDH induz a análises que ignoram os contextos históricos e ecológicos das regiões comparadas. A fim de superar as insuficiências do IDH, o autor apresenta a terceira geração de indicadores, exemplificada pelo Índice Paulista de Responsabilidade Social (IPRS). A inovação do IPRS, segundo Veiga, reside na substituição da média aritmética e do ranking linear pela criação de tipologias. O autor explica que essa metodologia classifica os municípios em grupos qualitativos distintos, revelando categorias que o IDH esconderia, como os municípios "desenvolvidos", os "ricos-mas-injustos" e os "saudáveis" (que possuem baixa riqueza econômica, mas garantem escolaridade e longevidade).
+
+Por fim, o texto culmina ao apresentar a quarta geração de ferramentas de mensuração, nascida da insatisfação com a redução de fenômenos sociológicos a índices sintéticos numéricos. Veiga cita o projeto DNA-Brasil como exemplo dessa fase. Essa abordagem multidimensional adota um conjunto articulado de vinte e quatro indicadores, abrangendo sete dimensões sociais, como coesão social e condições socioambientais. A inovação desta metodologia encontra-se na sua forma de visualização: os resultados são plotados em um polígono ou estrela geométrica, permitindo a comparação espacial direta com nações de referência ou com metas de políticas públicas. A obra conclui que essa representação visual revela as áreas em que o país avaliado se equipara a outras nações e onde existem defasagens estruturais, oferecendo um instrumento metodologicamente adequado para o planejamento público.
