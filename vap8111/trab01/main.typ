@@ -1,4 +1,4 @@
-#import "trab01/imports.typ": abnt
+#import "imports.typ": abnt
 
 #let nome-aluno = "Wellington Wagner Ferreira Sarmento"
 #let nome-disciplina = "VAP8111 - Desenvolvimento e Sustentabilidade no Brasil"
