@@ -5,6 +5,44 @@
 #let tipo-trabalho = "Resumos e Resenha Crítica"
 #let nome-avaliador = "Prof. Dr. Marcelo Freire Moro"
 
+#set footnote.entry(separator: line(length: 100%, stroke: 0.5pt))
+
+#let quadro(titulo, corpo, fonte) = {
+
+  show figure.caption: set align(left)
+
+  set text(size: 11pt)
+
+    show table: set table(
+    inset: 0.85em, // Padding solicitado
+    fill: (x, y) => if y == 0 { gray.lighten(60%) }, // Cor de fundo da primeira linha
+  )
+
+  show table.cell: it => {
+    if it.y == 0 {
+      set align(center + horizon) // Primeira linha centralizada
+      it
+    } else {
+      set align(left + horizon) // Demais linhas à direita
+      it
+    }
+  }
+
+  figure(
+    caption: figure.caption(position: top)[#titulo],
+    kind: "quadro",
+    supplement: [Quadro],
+    stack(
+      dir: ttb,
+      spacing: 0.5em,
+      corpo,
+      align(left, text(size: 11pt)[Fonte: #fonte])
+    )
+  )
+
+
+}
+
 #show: abnt.with(
   arquivo-bibliografia: "referencias.bib", // Define o arquivo para o sistema @obra
   titulo: [#tipo-trabalho de Capítulos de Livros, Artigos e Vídeos referentes aos temas abordados em sala de aula],
@@ -16,7 +54,7 @@
   disciplina: nome-disciplina,
   local: "Fortaleza",
   ano: "2026",
-  avaliador: nome-avaliador
+  avaliador: nome-avaliador,
 )
 
 = Identificação das Obras e dos Autores
@@ -25,7 +63,7 @@
 
 = Resumo do Capítulo 4, "Ácidos Nucleicos e a Origem da Vida" ("_Chapter 4: Nucleic Acids and the Origin of Life_")
 
-O capítulo 4 do livro, intitulado "Ácidos Nucleicos e a Origem da Vida", mergulha na essência molecular do que define os seres vivos e investiga as hipóteses científicas sobre como a vida se estabeleceu na Terra @sadava2011life[p. 60]. O conteúdo está organizado de forma lógica em quatro grandes subseções: as estruturas e funções químicas dos ácidos nucléicos no 4.1 @sadava2011life[p. 61], a origem das pequenas moléculas essenciais no 4.2 @sadava2011life[p. 66], o surgimento das macromoléculas no 4.3 @sadava2011life[p. 69] e a origem das primeiras células no 4.4 @sadava2011life[p. 72].
+O capítulo 4 do livro, intitulado "Ácidos Nucleicos e a Origem da Vida", mergulha na essência molecular do que define os seres vivos e investiga as hipóteses científicas sobre como a vida se estabeleceu na Terra @sadava2011life[p. 60]. O conteúdo está organizado de forma lógica em quatro grandes subseções: as estruturas e funções químicas dos ácidos nucléicos no *4.1* @sadava2011life[p. 61], a origem das pequenas moléculas essenciais no *4.2* @sadava2011life[p. 66], o surgimento das macromoléculas no *4.3* @sadava2011life[p. 69] e a origem das primeiras células no *4.4* @sadava2011life[p. 72].
 
 A compreensão da vida moderna inicia-se com o estudo dos ácidos nucléicos, Ácido Desoxirribonucleico (no inglês, _Deoxyribonucleic Acid_ - DNA) e Ácido Ribonucleico (no inglês, _Ribonucleic Acid_ - RNA), que são polímeros formados por nucleotídeos e especializados no armazenamento e na transmissão de dados genéticos @sadava2011life[p. 61]. É nesse ponto que "o conceito de 'informação' entra no vocabulário biológico" @sadava2011life[p. 62], visto que essas moléculas são as únicas capazes de codificar e transmitir instruções vitais. Enquanto o DNA carrega o código hereditário em sua estrutura de dupla hélice uniforme, o RNA atua como um intermediário essencial, traduzindo essa informação em sequências de aminoácidos para formar proteínas, que são as reais executoras das funções celulares @sadava2011life[p. 63]. Essa dinâmica é regida pelo dogma central da biologia molecular, que dita o fluxo de informação do DNA para o RNA e deste para as proteínas @sadava2011life[p. 64], permitindo a continuidade da vida e revelando, através de sequências de bases, os laços evolutivos que unem todos os organismos, como visto na proximidade genética entre humanos e chimpanzés @sadava2011life[p. 65].
 
@@ -36,42 +74,37 @@ A transição da química para a biologia exigiu condições ambientais específ
 #v(1em)
 
 == Principais Marcos
+#quadro(
+  "Etapas de evolução da vida na Terra.",
+  table(
+      columns: (1fr, 2fr),
+      [*Etapa Evolutiva*], [*Descrição do Processo*],
 
-#table(
-  columns: (1fr, 2fr, 1fr),
-  inset: 10pt,
-  align: horizon,
-  fill: (x, y) => if y == 0 { gray.lighten(40%) },
-  [*Etapa Evolutiva*], [*Descrição do Processo*], [*Referência*],
-  
-  [Evolução da Terra],
-  [Formação do sistema solar e da Terra (4,6 bya). Condições iniciais de calor extremo e bombardeamento de meteoritos], 
-  [@sadava2011life[p. 67]],
-  
-  [Estabilização da Hidrosfera], 
-  [Resfriamento da crosta terrestre permitindo a existência de água líquida, essencial como solvente para reações químicas], 
-  [@sadava2011life[p. 67]],
-  
-  [Química Pré-biótica], 
-  [Síntese de moléculas orgânicas pequenas (aminoácidos, nucleotídeos) via evolução química ou fontes extraterrestres], 
-  [@sadava2011life[p. 68]],
-  
-  [Fase Pré-RNA], 
-  [Polimerização espontânea de monômeros em polímeros (ácidos nucléicos e proteínas) em superfícies como argila ou rochas], 
-  [@sadava2011life[p. 70]],
-  
-  [Surgimento do RNA], 
-  [Hipótese do "Mundo de RNA": moléculas capazes de auto-replicação e catálise enzimática (ribozimas)], 
-  [@sadava2011life[p. 71]],
-  
-  [Surgimento das Células], 
-  [Encapsulamento de polímeros em membranas lipídicas, formando protobiontes e mantendo um ambiente interno distinto], 
-  [@sadava2011life[p. 72]]
+      [Evolução da Terra], 
+      [Formação do sistema solar e da Terra (4,6 bya#footnote[_Billions of Years Ago_(traduzindo para o português, Bilhões de Anos Atrás). Unidade de tempo usada para Astronomia, Geologia e Paleontologia, por exemplo.]). Condições iniciais de calor extremo e bombardeamento de meteoritos@sadava2011life[p. 67].],
+
+      [Estabilização da Hidrosfera],
+      [Resfriamento da crosta terrestre permitindo a existência de água líquida, essencial como solvente para reações químicas@sadava2011life[p. 67].],
+
+      [Química Pré-biótica],
+      [Síntese de moléculas orgânicas pequenas (aminoácidos, nucleotídeos) via evolução química ou fontes extraterrestres@sadava2011life[p. 68].],
+
+      [Fase Pré-RNA],
+      [Polimerização espontânea de monômeros em polímeros (ácidos nucléicos e proteínas) em superfícies como argila ou rochas@sadava2011life[p. 70].],
+
+      [Surgimento do RNA],
+      [Hipótese do "Mundo de RNA": moléculas capazes de auto-replicação e catálise enzimática (ribozimas)@sadava2011life[p. 71].],
+
+      [Surgimento das Células],
+      [Encapsulamento de polímeros em membranas lipídicas, formando protobiontes e mantendo um ambiente interno distinto@sadava2011life[p. 72].],
+    ),
+    "O Autor (2026)."
 )
+
 
 = Resumo do Capítulo 25, "A História da Origem da Vida na Terra" ("_Chapter 25: The History of Life on Earth_")
 
-O capítulo 25 da obra de Sadava et al., intitulado *"A História da Vida na Terra"*, dedica-se a investigar a profunda interdependência entre os eventos geológicos do planeta e a evolução biológica. A estrutura do capítulo organiza-se em três subseções fundamentais: a primeira (**25.1**) aborda os métodos científicos utilizados para datar eventos históricos; a segunda (**25.2**) examina como as mudanças no ambiente físico da Terra — como a deriva continental e as alterações atmosféricas — moldaram a vida; e a terceira (**25.3**) descreve os marcos biológicos registrados no registro fóssil, desde o Pré-cambriano até o surgimento da linhagem humana.
+O capítulo 25 da obra de Sadava et al., intitulado *"A História da Vida na Terra"*, dedica-se a investigar a profunda interdependência entre os eventos geológicos do planeta e a evolução biológica. A estrutura do capítulo organiza-se em três subseções fundamentais: a primeira (*25.1*) aborda os métodos científicos utilizados para datar eventos históricos; a segunda (*25.2*) examina como as mudanças no ambiente físico da Terra — como a deriva continental e as alterações atmosféricas — moldaram a vida; e a terceira (*25.3*) descreve os marcos biológicos registrados no registro fóssil, desde o Pré-cambriano até o surgimento da linhagem humana.
 
 A reconstrução desse panorama histórico fundamenta-se na premissa de que a trajetória da vida não pode ser desvinculada das transformações físicas do globo, pois "a história da vida na Terra é uma história de mudanças tanto físicas quanto biológicas que se influenciam mutuamente" @sadava2011life[p. 518]. Para estabelecer essa cronologia, a ciência recorre ao registro fóssil aliado a técnicas precisas de datação radiométrica. Esse método utiliza o decaimento constante de isótopos, permitindo que pesquisadores determinem idades absolutas para rochas e vestígios orgânicos; enquanto o Carbono-14 é aplicado em amostras mais jovens, o sistema Potássio-Argônio possibilita o recuo em bilhões de anos na escala temporal @sadava2011life[p. 519-520]. A partir desses dados, a escala de tempo geológico é estruturada em quatro éons — Hadeano, Arqueano, Proterozóico e Fanerozóico —, sendo que os três primeiros compõem o vasto intervalo conhecido como Pré-cambriano @sadava2011life[p. 522].
 
@@ -84,21 +117,25 @@ A era subsequente, a Mesozoica, é amplamente reconhecida pelo domínio dos dino
 #v(1em)
 == Principais Marcos Temporais
 
-#table(
-  columns: (0.8fr, 2fr, 1.2fr),
-  inset: 10pt,
-  align: horizon,
-  fill: (x, y) => if y == 0 { gray.lighten(40%) },
-  [*Tempo Estimado*], [*Marco Temporal ou Evento Evolutivo*], [*Página*],
-  [4,6 bya], [Formação da Terra e do Sistema Solar], [@sadava2011life[p. 522]],
-  [3,8 bya], [Primeiras formas de vida unicelulares (evidência química)], [@sadava2011life[p. 523]],
-  [2,4 bya], [Início da acumulação de $O_2$ (Revolução do Oxigênio)], [@sadava2011life[p. 527]],
-  [1,5 bya], [Surgimento dos primeiros organismos eucariotos.], [@sadava2011life[p. 528]],
-  [1,2 bya], [Evidências de organismos multicelulares complexos], [@sadava2011life[p. 529]],
-  [542 mya], [Início do período Cambriano; Explosão Cambriana], [@sadava2011life[p. 530]],
-  [251 mya], [Extinção em massa do Permiano (fim da era Paleozoica)], [@sadava2011life[p. 531]],
-  [65 mya], [Impacto do asteroide e extinção do Cretáceo (limite KT)], [(Sadava et al., 2011, p. 533)],
-  [1,8 mya], [Início do Pleistoceno e surgimento do gênero Homo], [@sadava2011life[p. 535]]
+#quadro(
+  "Principais marcos temporais da formação da vida na Terra",
+  table(
+      columns: (1fr, 3fr),
+      [*Tempo Estimado*], [*Marco Temporal ou Evento Evolutivo*],
+      [4,6 bya#footnote[_Billions of Years Ago_(traduzindo para o português, Bilhões de Anos Atrás). Unidade de tempo usada para Astronomia, Geologia e Paleontologia, por exemplo.]<bya>],
+      [Formação da Terra e do Sistema Solar@sadava2011life[p. 522].],
+      [3,8 bya@bya], [Primeiras formas de vida unicelulares (evidência química)@sadava2011life[p. 523].],
+      [2,4 bya@bya], [Início da acumulação de $O_2$ (Revolução do Oxigênio)@sadava2011life[p. 527].],
+      [1,5 bya@bya], [Surgimento dos primeiros organismos eucariotos@sadava2011life[p. 528]],
+      [1,2 bya@bya], [Evidências de organismos multicelulares complexos@sadava2011life[p. 529].],
+      [542 mya#footnote[_Millions of Years Ago_(traduzindo para o português, Milhões de Anos Atrás). Unidade de tempo usada para Astronomia, Geologia e Paleontologia, por exemplo.]<mya>],
+      [Início do período Cambriano; Explosão Cambriana@sadava2011life[p. 530].],
+
+      [251 mya@mya], [Extinção em massa do Permiano (fim da era Paleozoica)@sadava2011life[p. 531].],
+      [65 mya@mya], [Impacto do asteróide e extinção do Cretáceo (limite KT)@sadava2011life[p. 533].],
+      [1,8 mya@mya], [Início do Pleistoceno e surgimento do gênero Homo@sadava2011life[p. 535].],
+    ),
+    "O Autor (2026)."
 )
 
 
