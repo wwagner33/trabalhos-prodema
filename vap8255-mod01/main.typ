@@ -57,52 +57,55 @@
   avaliador: nome-avaliador,
 )
 
-= Identificação das Obras e dos Autores
 
+= O surgimento e diversificação da vida na Terra, as grandes extinções em massa, e uma breve história da Vida no planeta
+As duas seções seguintes apresentam resumos dos capítulos 4 e 25 do livro "Vida: a Ciência da Biologia"#footnote[Foi escolhida a versão em inglês deste livro, por estar disponível no formato digital, facilitando o trabalho de fichamento, escrita de observações e anotações, por parte do autor deste trabalho.] de Sadava _et al._ @sadava2011life, que abordam, respectivamente, os fundamentos bioquímicos dos ácidos nucléicos e as hipóteses sobre a origem da vida na Terra, bem como a história evolutiva da vida em relação aos eventos geológicos do planeta. Esses resumos destacam os principais conceitos, processos e marcos temporais discutidos em cada capítulo, proporcionando uma visão geral dos temas essenciais para a compreensão da biologia e da evolução.
 
+== Resumo do Capítulo 4, "Ácidos Nucleicos e a Origem da Vida" ("_Chapter 4: Nucleic Acids and the Origin of Life_")
+O Capítulo 4 do livro "_Life: The Science of Biology_"#footnote[Vida: a Ciência da Biologia.] (nona edição), intitulado "Nucleic Acids and the Origin of Life"#footnote[Ácidos Nucleicos e a Origem da Vida] @sadava2011life[p. 60], aborda a estrutura química dos ácidos nucleicos e as hipóteses científicas sobre a origem da vida. O conteúdo está organizado em quatro subseções principais: "_What Are the Chemical Structures and Functions of Nucleic Acids?_"#footnote[Quais são as estruturas e funções químicas dos ácidos nucleicos?] @sadava2011life[p. 61]; "_How and Where Did the Small Molecules of Life Originate?_"#footnote[Como e onde as pequenas moléculas da vida se originaram?] @sadava2011life[p. 65]; "_How Did the Large Molecules of Life Originate?_"#footnote[Como as grandes moléculas da vida se originaram?] @sadava2011life[p. 69]; e "_How Did the First Cells Originate?_"#footnote[Como as primeiras células se originaram?] @sadava2011life[p. 72].  
 
-= Resumo do Capítulo 4, "Ácidos Nucleicos e a Origem da Vida" ("_Chapter 4: Nucleic Acids and the Origin of Life_")
+A compreensão das moléculas da vida passa pelo estudo dos ácidos nucleicos, cujos blocos construtores são os nucleotídeos @sadava2011life[p. 61]. Nessas moléculas, o pareamento de bases ocorre tanto no Ácido Desoxirribonucleico (_Deoxyribonucleic Acid_, DNA) quanto no Ácido Ribonucléico (_Ribonucleic Acid_, RNA)  @sadava2011life[p. 62]. O DNA é responsável por carregar a informação genética, que, por sua vez, é expressa por meio do RNA @sadava2011life[p. 63]. Além disso, a sequência de bases do DNA revela relações evolutivas entre os organismos, enquanto os próprios nucleotídeos desempenham outros papéis biológicos fundamentais @sadava2011life[p. 64].  
 
-O capítulo 4 do livro, intitulado "Ácidos Nucleicos e a Origem da Vida", mergulha na essência molecular do que define os seres vivos e investiga as hipóteses científicas sobre como a vida se estabeleceu na Terra @sadava2011life[p. 60]. O conteúdo está organizado de forma lógica em quatro grandes subseções: as estruturas e funções químicas dos ácidos nucléicos no *4.1* @sadava2011life[p. 61], a origem das pequenas moléculas essenciais no *4.2* @sadava2011life[p. 66], o surgimento das macromoléculas no *4.3* @sadava2011life[p. 69] e a origem das primeiras células no *4.4* @sadava2011life[p. 72].
+A investigação sobre a origem da vida exigiu experimentos que refutassem a teoria da geração espontânea @sadava2011life[p. 65]. Nesse contexto, o cientista *Louis Pasteur* utilizou um recipiente contendo caldo estéril (_sterile broth_) para demonstrar que microrganismos não surgem do nada, comprovando que a vida preexistente é condição necessária para que uma nova vida seja gerada @sadava2011life[p. 66]. Quanto à origem das primeiras pequenas moléculas, os cientistas apontam que a vida começou na água @sadava2011life[p. 65], embora também considerem a possibilidade de uma origem extraterrestre @sadava2011life[p. 66].  
 
-A compreensão da vida moderna inicia-se com o estudo dos ácidos nucléicos, Ácido Desoxirribonucleico (no inglês, _Deoxyribonucleic Acid_ - DNA) e Ácido Ribonucleico (no inglês, _Ribonucleic Acid_ - RNA), que são polímeros formados por nucleotídeos e especializados no armazenamento e na transmissão de dados genéticos @sadava2011life[p. 61]. É nesse ponto que "o conceito de 'informação' entra no vocabulário biológico" @sadava2011life[p. 62], visto que essas moléculas são as únicas capazes de codificar e transmitir instruções vitais. Enquanto o DNA carrega o código hereditário em sua estrutura de dupla hélice uniforme, o RNA atua como um intermediário essencial, traduzindo essa informação em sequências de aminoácidos para formar proteínas, que são as reais executoras das funções celulares @sadava2011life[p. 63]. Essa dinâmica é regida pelo dogma central da biologia molecular, que dita o fluxo de informação do DNA para o RNA e deste para as proteínas @sadava2011life[p. 64], permitindo a continuidade da vida e revelando, através de sequências de bases, os laços evolutivos que unem todos os organismos, como visto na proximidade genética entre humanos e chimpanzés @sadava2011life[p. 65].
+O surgimento dessas moléculas na Terra primitiva é modelado por experimentos de síntese prebiótica @sadava2011life[p. 67]. Um marco nessa área é o experimento de *Miller* e *Urey*, que conseguiu sintetizar moléculas prebióticas em uma atmosfera experimental @sadava2011life[p. 68]. Com a formação e o acúmulo dessas pequenas moléculas, a evolução química pode ter propiciado a sua polimerização, dando origem às macromoléculas @sadava2011life[p. 69].  
 
-A transição da química para a biologia exigiu condições ambientais específicas e a superação da antiga crença na geração espontânea. Experimentos realizados por *Francesco Redi* e *Louis Pasteur* foram cruciais para provar que a vida só surge de vida preexistente @sadava2011life[p. 66-67]. Contudo, para explicar a origem inicial, os cientistas voltam ao período Hadeano da Terra, há cerca de 4,6 bilhões de anos, quando o planeta era extremamente quente e bombardeado por cometas @sadava2011life[p. 67]. Com o resfriamento terrestre e a estabilização da hidrosfera, a água tornou-se o meio ideal para as reações químicas. Duas vertentes explicam o surgimento das pequenas moléculas orgânicas: uma sugere que componentes como aminoácidos e açúcares vieram do espaço via meteoritos, como o de Murchison @sadava2011life[p. 68], e a outra sustenta que eles foram sintetizados na própria Terra primitiva através de processos de evolução química e síntese prebiótica @sadava2011life[p. 68-69].
-
-À medida que essas pequenas moléculas se acumulavam, processos de polimerização teriam levado ao surgimento de macromoléculas complexas @sadava2011life[p. 70]. Uma teoria influente propõe que o "RNA pode ter sido o primeiro catalisador biológico" @sadava2011life[p. 70], dando origem à hipótese do Mundo de RNA. Diferente do DNA, o RNA pode dobrar-se em formas tridimensionais complexas, permitindo-lhe atuar como uma ribozima capaz de acelerar reações químicas essenciais @sadava2011life[p. 71]. O passo final para a vida celular foi o encapsulamento desses sistemas moleculares e metabólicos em compartimentos membranosos, criando as protocélulas @sadava2011life[p. 72]. Este desenvolvimento permitiu que os organismos mantivessem um ambiente interno distinto do externo, culminando nas primeiras células cujos registros fósseis datam de aproximadamente 3,8 bilhões de anos atrás @sadava2011life[p. 73].
+Atualmente, existem duas teorias para explicar a emergência dos ácidos nucleicos, das proteínas e da química complexa @sadava2011life[p. 69], havendo fortes indícios de que o Ácido Ribonucleico  tenha atuado como o primeiro catalisador biológico @sadava2011life[p. 71]. O passo final em direção à vida celular é explorado por experimentos que investigam o encapsulamento e a origem das primeiras células @sadava2011life[p. 72]. Esse desenvolvimento primitivo culminou no surgimento de células ancestrais, cujas marcas sobreviveram até os dias atuais sob a forma de impressões fósseis (fossil imprints) @sadava2011life[p. 73]. 
 
 #v(1em)
 
-== Principais Marcos
+=== Quadro Resumo
+O quadro a seguir sintetiza a cronologia das principais hipóteses científicas sobre a origem da vida, conforme discutido no Capítulo 4 da obra "_Life: The Science of Biology_" @sadava2011life. A transição da matéria inanimada para os primeiros organismos vivos não ocorreu de forma abrupta, mas sim por meio de um processo gradual de evolução química sob as condições da Terra primitiva. Desde a formação do planeta e a estabilização da água líquida até o encapsulamento de macromoléculas autorreplicantes em membranas, as etapas descritas ilustram os eventos fundamentais que permitiram o salto da química para a biologia, culminando no surgimento das protocélulas, os precursores da vida celular moderna.
+
 #quadro(
-  "Etapas de evolução da vida na Terra.",
+  "Etapas evolutivas moleculares da Vida na Terra.",
   table(
       columns: (1fr, 2fr),
       [*Etapa Evolutiva*], [*Descrição do Processo*],
 
       [Evolução da Terra], 
-      [Formação do sistema solar e da Terra (4,6 bya#footnote[_Billions of Years Ago_(traduzindo para o português, Bilhões de Anos Atrás). Unidade de tempo usada para Astronomia, Geologia e Paleontologia, por exemplo.]). Condições iniciais de calor extremo e bombardeamento de meteoritos@sadava2011life[p. 67].],
+      [Formação do sistema solar e da Terra (4,6 bya#footnote[_Billions of Years Ago_ (traduzindo para o português, Bilhões de Anos Atrás). Unidade de tempo usada para Astronomia, Geologia e Paleontologia, por exemplo.]). Condições iniciais de calor extremo e bombardeio de meteoritos @sadava2011life[p. 67].],
 
       [Estabilização da Hidrosfera],
-      [Resfriamento da crosta terrestre permitindo a existência de água líquida, essencial como solvente para reações químicas@sadava2011life[p. 67].],
+      [Resfriamento da crosta terrestre permitindo a existência de água líquida, essencial como solvente para reações químicas @sadava2011life[p. 67].],
 
       [Química Pré-biótica],
-      [Síntese de moléculas orgânicas pequenas (aminoácidos, nucleotídeos) via evolução química ou fontes extraterrestres@sadava2011life[p. 68].],
+      [Síntese de pequenas moléculas orgânicas (aminoácidos, nucleotídeos) via evolução química ou fontes extraterrestres @sadava2011life[p. 68].],
 
       [Fase Pré-RNA],
-      [Polimerização espontânea de monômeros em polímeros (ácidos nucléicos e proteínas) em superfícies como argila ou rochas@sadava2011life[p. 70].],
+      [Polimerização espontânea de monômeros em polímeros (ácidos nucleicos e proteínas) em superfícies como argilas ou rochas @sadava2011life[p. 70].],
 
       [Surgimento do RNA],
-      [Hipótese do "Mundo de RNA": moléculas capazes de auto-replicação e catálise enzimática (ribozimas)@sadava2011life[p. 71].],
+      [Hipótese do "Mundo de RNA": moléculas capazes de autorreplicação e catálise enzimática (ribozimas) @sadava2011life[p. 71].],
 
       [Surgimento das Células],
-      [Encapsulamento de polímeros em membranas lipídicas, formando protobiontes e mantendo um ambiente interno distinto@sadava2011life[p. 72].],
+      [Encapsulamento de polímeros em membranas lipídicas, formando protocélulas e mantendo um ambiente interno distinto @sadava2011life[p. 72].],
     ),
-    "O Autor (2026)."
+    "O autor (2026)."
 )
 
 
-= Resumo do Capítulo 25, "A História da Origem da Vida na Terra" ("_Chapter 25: The History of Life on Earth_")
+== Resumo do Capítulo 25, "A História da Origem da Vida na Terra" ("_Chapter 25: The History of Life on Earth_")
 
 O capítulo 25 da obra de Sadava et al., intitulado *"A História da Vida na Terra"*, dedica-se a investigar a profunda interdependência entre os eventos geológicos do planeta e a evolução biológica. A estrutura do capítulo organiza-se em três subseções fundamentais: a primeira (*25.1*) aborda os métodos científicos utilizados para datar eventos históricos; a segunda (*25.2*) examina como as mudanças no ambiente físico da Terra — como a deriva continental e as alterações atmosféricas — moldaram a vida; e a terceira (*25.3*) descreve os marcos biológicos registrados no registro fóssil, desde o Pré-cambriano até o surgimento da linhagem humana.
 
@@ -115,7 +118,8 @@ Embora a vida tenha permanecido exclusivamente unicelular pela maior parte da hi
 A era subsequente, a Mesozoica, é amplamente reconhecida pelo domínio dos dinossauros, mas também marcou o surgimento de grupos vitais como os primeiros mamíferos e as plantas com flores. O fim dessa era ocorreu há cerca de 65 milhões de anos, quando o impacto de um asteroide na península de Yucatán gerou mudanças ambientais catastróficas, traçando o limite entre os períodos Cretáceo e Terciário (limite KT) e favorecendo a ascensão dos mamíferos @sadava2011life[p. 532-533]. Já na era Cenozoica, a diversificação prosseguiu sob a liderança de mamíferos, aves e angiospermas. No período Quaternário, o registro de ciclos de glaciações e o aparecimento da linhagem humana consolidaram o cenário atual da biodiversidade, encerrando a narrativa de 4,5 bilhões de anos de história explorada no capítulo @sadava2011life[p. 534-535].
 
 #v(1em)
-== Principais Marcos Temporais
+=== Quadro Resumo
+O quadro a seguir sintetiza os principais marcos temporais da formação da vida na Terra, conforme discutido no Capítulo 25 da obra "_Life: The Science of Biology_" @sadava2011life. A história da vida é intrinsecamente ligada às transformações geológicas do planeta, onde eventos como a formação da Terra, a estabilização da hidrosfera, a revolução do oxigênio e as grandes extinções em massa moldaram a trajetória evolutiva. Desde as primeiras formas de vida unicelulares até a diversificação explosiva do Cambriano e o surgimento da linhagem humana, cada etapa representa um marco fundamental na complexa tapeçaria da vida, evidenciando a interdependência entre os processos físicos e biológicos que definem a história da Terra.
 
 #quadro(
   "Principais marcos temporais da formação da vida na Terra",
@@ -138,5 +142,13 @@ A era subsequente, a Mesozoica, é amplamente reconhecida pelo domínio dos dino
     "O Autor (2026)."
 )
 
+= Conceito de Biodiversidade e suas Escalas
 
+= A Classificação da Vida na Terra
+
+= Fatores que Regulam a Distribuição da Biodiversidade no Planeta
+
+= Domínios Biogeográficos do Brasil e Tipos de Vegetação do Ceará
+
+= Biomas do Planeta Terra
 
