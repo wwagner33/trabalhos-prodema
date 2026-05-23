@@ -19,7 +19,7 @@
   set page(margin: (top: 3cm, left: 3cm, right: 2cm, bottom: 2cm))
   set text(font: ("Liberation Serif"), size: 12pt, lang: "pt", region: "br") //Troquei a Times New Roman pela Liberation Serif
   
-  // ALTERAÇÃO AQUI: leading alterado de 1em para 0.65em para espaçamento simples
+
   set par(leading: 0.65em, justify: true, first-line-indent: 1.25cm)
 
   // 2. Regras de Títulos (Seções)
